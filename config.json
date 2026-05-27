@@ -1,0 +1,40 @@
+{
+  "game": {
+    "window_title": "原神",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "chat_box": [
+      150,
+      720,
+      1150,
+      950
+    ]
+  },
+  "bot": {
+    "check_interval": 1,
+    "max_chars": 35,
+    "blacklist": [],
+    "wake_word": "派蒙萌萌萌"
+  },
+  "ai": {
+    "api_key": "你的智谱AI-API-Key",
+    "model": "glm-4-flash",
+    "personality": "你叫派蒙，是旅行者最好的伙伴。你可爱、活泼、贪吃，偶尔爱吐槽，但永远忠诚。请用原神派蒙的语气和简短的话回复。"
+  },
+  "plugins": {
+    "enabled": [
+      "music_player"
+    ],
+    "config": {
+      "music_player": {
+        "software_path": "LX音乐软件exe路径",
+        "api_port": 23330
+      }
+    }
+  },
+  "gui": {
+    "tray_minimize": false
+  }
+}
