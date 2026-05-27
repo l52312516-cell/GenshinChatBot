@@ -29,7 +29,7 @@
 
 ### 方式一：使用预编译 EXE（推荐）
 
-1. 从 [Releases](https://github.com/l52312516-cell/GenshinChatBot.git) 下载最新版的 `GenshinChatBot.zip`。
+1. 从 [Releases](https://github.com/l52312516-cell/GenshinChatBot/release) 下载最新版的 `GenshinChatBot.zip`。
 2. 解压到任意目录，双击 `GenshinChatBot.exe` 运行。
 3. 首次运行会自动检测依赖（实际上 exe 已包含所有依赖，无需安装）。
 4. 按照界面提示填写智谱AI API Key 和 LxMusic 路径。
@@ -79,7 +79,7 @@
  本项目仅供学习和研究使用，不得用于商业用途。用户在使用本软件时，应遵守相关法律法规和游戏服务条款。本软件不修改游戏内存和网络数据，仅模拟人类输入，但使用者需自行承担使用风险。项目中的音乐搜索功能依赖第三方 API，版权归原始权利人所有。
 
 📞 联系方式
- 作者 B站： 悠闲的梅兹特利（https://space.bilibili.com/3493108868188977bi）
+ 作者 B站： 悠闲的梅兹特利[https://space.bilibili.com/3493108868188977]
  
  企鹅交流群（偏日常，可从此途径联系作者）1092593216
  
