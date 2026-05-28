@@ -5,7 +5,10 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
-
+ 
+ ##B站演示使用视频##
+ 【GenshinChatBot v4.0演示使用教程-哔哩哔哩】 https://b23.tv/jgaY8J3
+ 
 ## ✨ 功能特性
 
 - 🎮 **全自动聊天**：实时监控游戏聊天框，自动回复玩家消息（需唤醒词“派蒙萌萌萌(可在设置中更改)”或 / 指令）。
