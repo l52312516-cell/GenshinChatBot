@@ -80,6 +80,6 @@
 📞 联系方式
  作者 B站： 悠闲的梅兹特利[https://space.bilibili.com/3493108868188977]
  
- 企鹅交流群（偏日常，可从此途径联系作者）1092593216
+ 作者QQ：1515564167
  
  项目主页： [https://github.com/l52312516-cell/GenshinChatBot.git]
