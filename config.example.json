@@ -1,0 +1,57 @@
+{
+  "game": { "window_title": "原神" },
+  "bot": {
+    "check_interval": 0.25,
+    "max_chars": 35,
+    "history_turns": 8,
+    "wake_word": "派蒙萌萌萌",
+    "blacklist": [],
+    "send_interval_ms": 600,
+    "log_overlay": true
+  },
+  "ai": {
+    "provider": "custom",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "CHATGIBOT_AI_KEY",
+    "api_key": "",
+    "model": "deepseek-chat",
+    "temperature": 0.7,
+    "max_tokens": 80,
+    "personality": "你叫派蒙，是旅行者最好的伙伴。请用活泼的派蒙语气，每次只给一句不超过25个字的中文回复。"
+  },
+  "downloads": {
+    "source": "auto"
+  },
+  "vision": {
+    "engine": "local",
+    "screenshot_mode": "bitblt",
+    "inference_device": "cpu",
+    "trigger_interval_ms": 250,
+    "ocr_interval_ms": 1500,
+    "ocr_threads": 2,
+    "chat_region": [410, 720, 1100, 950],
+    "paddle": {
+      "ocr_version": "PP-OCRv6",
+      "model_tier": "medium",
+      "score_threshold_percent": 55
+    },
+    "ai": {
+      "base_url": "https://api.example.com/v1",
+      "api_key_env": "CHATGIBOT_VISION_KEY",
+      "api_key": "",
+      "model": "qwen-vl-plus",
+      "prompt": "只输出截图中原神聊天区域内的新聊天文本，不要解释。每行一条。"
+    }
+  },
+  "plugins": {
+    "enabled": ["music_player"],
+    "config": {
+      "music_player": {
+        "software_path": "",
+        "search_timeout": 50,
+        "max_queue_size": 30,
+        "blacklist": []
+      }
+    }
+  }
+}
